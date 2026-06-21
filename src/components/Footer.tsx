@@ -27,8 +27,15 @@ export default function Footer() {
                 { href: "/", label: "Beranda" },
                 { href: "/tentang", label: "Tentang" },
                 { href: "/fitur", label: "Fitur" },
-                { href: "/pasar", label: "Pasar" },
-                { href: "/keuangan", label: "Keuangan" },
+                { href: "/monitoring", label: "Monitoring" },
+                { href: "/legal", label: "Legal" },
+                { href: "/analytical", label: "Analytical" },
+                { href: "/historical", label: "Historical" },
+                { href: "/tracking", label: "Tracking" },
+                { href: "/scheduling", label: "Scheduling" },
+                { href: "/invoicing", label: "Invoicing" },
+                { href: "/analytics", label: "Analytics" },
+                { href: "/helpdesk", label: "Help Desk" },
                 { href: "/bmc", label: "BMC" },
               ].map((link) => (
                 <li key={link.href}>

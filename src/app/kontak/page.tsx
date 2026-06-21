@@ -57,7 +57,7 @@ export default function KontakPage() {
                     {
                       icon: Phone,
                       label: "Telepon",
-                      value: "(akan diinformasikan)",
+                      value: "+62 813-8703-5541",
                     },
                   ].map((item) => (
                     <div key={item.label} className="flex items-start gap-4">

@@ -144,58 +144,7 @@ export default function TentangPage() {
         </div>
       </section>
 
-      <section className="py-20 bg-emerald-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            className="text-center mb-12"
-            initial="initial"
-            whileInView="animate"
-            viewport={{ once: true }}
-            variants={fadeIn}
-            transition={{ duration: 0.5 }}
-          >
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Profil Persona
-            </h2>
-          </motion.div>
 
-          <motion.div
-            className="max-w-lg mx-auto bg-white rounded-2xl border border-emerald-100 shadow-sm overflow-hidden"
-            initial="initial"
-            whileInView="animate"
-            viewport={{ once: true }}
-            variants={fadeIn}
-            transition={{ duration: 0.5 }}
-          >
-            <div className="bg-emerald-600 px-6 py-4">
-              <h3 className="text-white font-semibold text-lg">Persona Pengguna</h3>
-            </div>
-            <div className="p-6">
-              <table className="w-full">
-                <tbody>
-                  {[
-                    ["Nama", "Muslim"],
-                    ["Peran", "Pemilik UMKM"],
-                    ["Usia", "35 tahun"],
-                    ["Pendidikan", "SMA"],
-                    ["Media Sosial", "TikTok"],
-                    ["Lokasi", "Suburban"],
-                    ["Pekerjaan", "Wiraswasta"],
-                    ["Tech Comfort", "Tinggi"],
-                  ].map(([key, val]) => (
-                    <tr key={key} className="border-b border-gray-100 last:border-0">
-                      <td className="py-3 pr-4 text-sm font-medium text-gray-500 w-1/3">
-                        {key}
-                      </td>
-                      <td className="py-3 text-sm text-gray-900">{val}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </motion.div>
-        </div>
-      </section>
     </div>
   );
 }
